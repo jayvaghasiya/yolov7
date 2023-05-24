@@ -1,0 +1,1 @@
+ python ../TensorRT-For-YOLO7/export.py --onnx ./runs/train/exp10/weights/best.onnx --engine ./runs/train/exp10/weights/best-fp32.trt -p fp32 --calib_input /home/jay/project/sorted_tech/yolov7/runs/detect/batch4/images
